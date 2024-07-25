@@ -55,6 +55,7 @@ form{
     grid-row: 1 / 2;
     overflow: hidden;
     padding: 0 5rem;
+    transition: 0.2s 0.7s ease-in-out;
 }
 form.sign-in-form{
     z-index: 2;
