@@ -44,6 +44,7 @@ body, input{
     display: grid;
     grid-template-columns: 1fr;
     z-index: 5;
+    transition: 1s 0.7s ease-in-out;
 }
 form{
     display: flex;
@@ -212,4 +213,15 @@ form.sign-up-form{
 }
 .container.sign-up-mode .right-panel{
     pointer-events: all;
+}
+.container.sign-up-mode .signin-signup{
+    left: 25%;
+}
+.container.container.sign-up-mode form.sign-in-form{
+    z-index: 1;
+    opacity: 0;
+}
+.container.container.sign-up-mode form.sign-up-form{
+    z-index: 2;
+    opacity: 1;
 }
